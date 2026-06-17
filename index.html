@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Md. Mirajur Rahman — Professional Graphics Designer, Video Editor & Visual Expert</title>
+  <meta name="description" content="Md. Mirajur Rahman — Founder & CEO of Computer Fixture Bangladesh (COMFIXBD). Premium video editing, motion graphics and color grading." />
+  <meta property="og:title" content="Md. Mirajur Rahman — Video Editor & Motion Graphics Artist" />
+  <meta property="og:description" content="Premium video editing, motion graphics, and visual storytelling for brands." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&display=swap" />
+
+  <style>
+    :root{
+      --neu-shadow: 8px 8px 20px #e2e8f0, -8px -8px 20px #ffffff;
+      --neu-shadow-sm: 4px 4px 10px #e2e8f0, -4px -4px 10px #ffffff;
+      --neu-inset: inset 4px 4px 8px #e2e8f0, inset -4px -4px 8px #ffffff;
+    }
+    html{ scroll-behavior:smooth; }
+    body{ font-family:"Inter","Hind Siliguri",system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
+    h1,h2,h3,h4{ letter-spacing:-0.02em; }
+    .neu{ box-shadow: var(--neu-shadow); }
+    .neu-sm{ box-shadow: var(--neu-shadow-sm); }
+    .neu-inset{ box-shadow: var(--neu-inset); }
+    .bg-dots{
+      background-image: radial-gradient(circle, #cbd5e1 1px, transparent 1px);
+      background-size: 22px 22px;
+      background-color: #f8fafc;
+    }
+    .hidden-section{ display:none !important; }
+  </style>
+</head>
+<body class="bg-dots min-h-screen">
+
+  <!-- NAV -->
+  <header class="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-white/70 border-b border-slate-200/60">
+    <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2">
+        <span class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center font-extrabold neu-sm">MR</span>
+        <span class="font-extrabold text-lg tracking-tight">Mirajur Rahman<span class="text-blue-600">.</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#home" class="text-sm font-semibold text-gray-600 hover:text-blue-600 transition">Home</a>
+        <a href="#about" class="text-sm font-semibold text-gray-600 hover:text-blue-600 transition">About</a>
+        <a href="#services" class="text-sm font-semibold text-gray-600 hover:text-blue-600 transition">Services</a>
+        <a href="#portfolio" class="text-sm font-semibold text-gray-600 hover:text-blue-600 transition">Portfolio</a>
+        <a href="#contact" class="text-sm font-semibold text-gray-600 hover:text-blue-600 transition">Contact</a>
+      </nav>
+      <a href="https://wa.me/8801932786233" target="_blank" rel="noopener" class="hidden md:inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-xl font-semibold text-sm hover:bg-black transition">
+        <i class="bi bi-whatsapp"></i> Hire Me
+      </a>
+      <button id="menuBtn" class="md:hidden w-10 h-10 rounded-xl neu-sm bg-white flex items-center justify-center" aria-label="Menu">
+        <i id="menuIcon" class="bi bi-list text-xl"></i>
+      </button>
+    </div>
+    <div id="mobileMenu" class="md:hidden bg-white border-t border-slate-200 px-4 py-3 flex-col gap-2 hidden">
+      <a href="#home" class="py-2 text-sm font-semibold text-gray-700 block">Home</a>
+      <a href="#about" class="py-2 text-sm font-semibold text-gray-700 block">About</a>
+      <a href="#services" class="py-2 text-sm font-semibold text-gray-700 block">Services</a>
+      <a href="#portfolio" class="py-2 text-sm font-semibold text-gray-700 block">Portfolio</a>
+      <a href="#contact" class="py-2 text-sm font-semibold text-gray-700 block">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="min-h-screen flex items-center pt-24 pb-16 px-4">
+    <div class="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-10 items-center">
+      <div class="order-2 lg:order-1 space-y-6">
+        <div class="inline-flex items-center gap-2 bg-white neu-sm px-4 py-1.5 rounded-full">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
+          </span>
+          <span class="text-[11px] font-bold text-gray-600 tracking-wide uppercase">Professional Graphics Designer Video Editor & Visual Expert</span>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-black leading-tight">
+          I'm <span class="text-blue-600">Md. Mirajur Rahman</span>
+        </h1>
+        <p class="text-base md:text-lg text-gray-600 leading-relaxed max-w-2xl" style="text-align: justify;">
+          I am a professional Graphics Designer, Video Editor and Motion Graphics Artist with over 5 years of experience in creating high-impact visual content. As the Founder and CEO of
+          <b class="text-blue-600">Computer Fixture Bangladesh (COMFIXBD)</b>, I lead a creative team dedicated to transforming raw footage into premium cinematic stories.
+        </p>
+
+        <div class="grid grid-cols-4 gap-4">
+          <div class="bg-slate-100 border border-white neu-inset p-4 rounded-2xl text-center">
+            <div class="text-xl font-bold text-gray-900">700+</div>
+            <div class="text-[10px] text-gray-500 uppercase font-bold mt-1">Graphics Designer</div>
+          </div>
+          <div class="bg-slate-100 border border-white neu-inset p-4 rounded-2xl text-center">
+            <div class="text-xl font-bold text-gray-900">500+</div>
+            <div class="text-[7px] text-gray-500 uppercase font-bold mt-1">Videos Edited</div>
+          </div>
+          <div class="bg-slate-100 border border-white neu-inset p-4 rounded-2xl text-center">
+            <div class="text-xl font-bold text-gray-900">100+</div>
+            <div class="text-[7px] text-gray-500 uppercase font-bold mt-1">Motion Projects</div>
+          </div>
+          <div class="bg-slate-100 border border-white neu-inset p-4 rounded-2xl text-center">
+            <div class="text-xl font-bold text-gray-900">5+</div>
+            <div class="text-[7px] text-gray-500 uppercase font-bold mt-1">Years Exp.</div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-3 pt-4">
+          <a href="#portfolio" class="bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-black transition flex items-center gap-2 group">
+            <i class="bi bi-eye"></i> View My Work
+          </a>
+          <a href="#contact" class="bg-white text-blue-600 border border-blue-100 px-6 py-3 rounded-xl font-semibold shadow-sm hover:shadow-md transition flex items-center gap-2">
+            <i class="bi bi-envelope"></i> Let's Talk
+          </a>
+          <a href="https://wa.me/8801932786233" target="_blank" rel="noopener" class="bg-white text-gray-900 border border-gray-200 px-6 py-3 rounded-xl font-semibold shadow-sm hover:shadow-md transition flex items-center gap-2">
+            <i class="bi bi-whatsapp text-green-600"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="order-1 lg:order-2 flex justify-center items-center">
+        <div class="relative w-64 h-64 md:w-80 md:h-80">
+          <div class="absolute inset-0 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
+          <div class="relative w-full h-full p-4 bg-white neu rounded-full">
+            <div class="w-full h-full rounded-full border-4 border-white overflow-hidden neu-inset bg-gray-100 group">
+              <img src="Miraj.jpg" alt="Md. Mirajur Rahman" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 group-hover:scale-110" />
+            </div>
+          </div>
+          <div class="absolute -top-2 -right-2 w-12 h-12 bg-white shadow-lg flex items-center justify-center text-blue-600 rounded-xl animate-bounce border border-gray-50">
+            <i class="bi bi-play-btn-fill text-xl"></i>
+          </div>
+          <div class="absolute -bottom-2 -left-2 w-12 h-12 bg-white shadow-lg flex items-center justify-center text-black rounded-xl animate-bounce border border-gray-50" style="animation-delay:0.5s">
+            <i class="bi bi-camera-reels text-xl"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="relative py-24 px-4 bg-white">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+      <div class="relative flex justify-center lg:justify-start">
+        <div class="relative w-full max-w-sm group">
+          <div class="absolute inset-0 bg-slate-100 rounded-3xl translate-x-3 translate-y-3 transition-transform group-hover:translate-x-0 group-hover:translate-y-0 duration-500"></div>
+          <div class="relative bg-white p-2 rounded-3xl border border-slate-200">
+            <div class="aspect-[3/4] rounded-2xl overflow-hidden bg-slate-50">
+              <img src="Miraj.jpg" alt="Md. Mirajur Rahman" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
+            </div>
+          </div>
+          <div class="absolute -bottom-6 -right-6 bg-white px-5 py-3 rounded-xl shadow-xl border border-slate-100 flex items-center gap-3">
+            <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white">
+              <i class="bi bi-patch-check-fill text-lg"></i>
+            </div>
+            <div class="whitespace-nowrap">
+              <span class="block text-[10px] text-gray-400 uppercase font-bold tracking-widest leading-none">Identity</span>
+              <span class="text-sm font-bold text-gray-900">Graphics Designer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-y-10">
+        <div class="space-y-6">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+            Driving Innovation Through <br />
+            <span class="text-gray-400">Professional Video Solutions</span>
+          </h2>
+          <div class="space-y-4 text-gray-600 leading-relaxed text-base md:text-lg">
+            <p style="text-align: justify;">Throughout more than 5 years in the creative industry, I have refined the art of visual communication and technical post-production. My focus is creating strategic visual impact that strengthens a brand's presence in the digital landscape.</p>
+            <p style="text-align: justify;">As the CEO of Visual Friends, I prioritize quality over quantity, ensuring every project reflects a premium standard of cinematography and storytelling.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-slate-50 transition">
+            <div class="mt-1 text-blue-600"><i class="bi bi-check-all text-xl"></i></div>
+            <div>
+              <h4 class="font-bold text-gray-900">Legacy of Excellence</h4>
+              <p class="text-sm text-gray-500">Half a decade of mastering high-end video tools and creative direction.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-slate-50 transition">
+            <div class="mt-1 text-blue-600"><i class="bi bi-graph-up-arrow text-xl"></i></div>
+            <div>
+              <h4 class="font-bold text-gray-900">Brand Leadership</h4>
+              <p class="text-sm text-gray-500">Guiding global entrepreneurs through the Visual Friends agency.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-24 px-4 bg-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
+          Service <span class="text-gray-400">Packages</span>
+        </h2>
+        <p class="text-gray-500 mt-4 max-w-xl mx-auto">Choose a package that matches your project scope, or get a custom quote.</p>
+      </div>
+      <div id="servicesGrid" class="grid md:grid-cols-3 gap-6"></div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="py-24 px-4 bg-slate-50">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-10">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900">Video Editing</h2>
+        <p class="text-gray-500 mt-3">A selection of recent work across categories.</p>
+      </div>
+
+      <div id="filters" class="flex flex-wrap justify-center gap-2 mb-10"></div>
+      <div id="videosWrap" class="space-y-12"></div>
+
+      <div class="grid sm:grid-cols-2 gap-4 mt-14">
+        <a href="#services" class="bg-white border border-slate-200 hover:border-blue-300 rounded-2xl p-6 flex items-center justify-between font-bold text-gray-800 hover:text-blue-600 transition">
+          Graphic Design <span>→</span>
+        </a>
+        <a href="#services" class="bg-white border border-slate-200 hover:border-blue-300 rounded-2xl p-6 flex items-center justify-between font-bold text-gray-800 hover:text-blue-600 transition">
+          Web Development <span>→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 px-4 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-6xl font-bold text-gray-900 mb-5">Let's Work Together</h2>
+        <p class="text-lg text-gray-600 mx-auto leading-relaxed max-w-xl">Simple, direct, and professional communication for your next creative project.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <a href="mailto:mirajur95@gmail.com" target="_blank" rel="noopener" class="group border border-slate-200 rounded-3xl p-8 bg-white hover:shadow-xl hover:-translate-y-1 transition">
+          <div class="w-14 h-14 rounded-2xl bg-slate-100 group-hover:bg-blue-600 group-hover:text-white flex items-center justify-center mb-6 transition">
+            <i class="bi bi-envelope text-2xl"></i>
+          </div>
+          <h4 class="text-xl font-bold text-gray-900 mb-2">Email</h4>
+          <p class="text-sm text-gray-500 break-all">mirajur95@gmail.com</p>
+        </a>
+        <a href="https://wa.me/8801932786233" target="_blank" rel="noopener" class="group border border-slate-200 rounded-3xl p-8 bg-white hover:shadow-xl hover:-translate-y-1 transition">
+          <div class="w-14 h-14 rounded-2xl bg-slate-100 group-hover:bg-blue-600 group-hover:text-white flex items-center justify-center mb-6 transition">
+            <i class="bi bi-whatsapp text-2xl"></i>
+          </div>
+          <h4 class="text-xl font-bold text-gray-900 mb-2">WhatsApp</h4>
+          <p class="text-sm text-gray-500 break-all">+880 1932786233</p>
+        </a>
+        <a href="https://www.facebook.com/mirajurrahman.tuhin" target="_blank" rel="noopener" class="group border border-slate-200 rounded-3xl p-8 bg-white hover:shadow-xl hover:-translate-y-1 transition">
+          <div class="w-14 h-14 rounded-2xl bg-slate-100 group-hover:bg-blue-600 group-hover:text-white flex items-center justify-center mb-6 transition">
+            <i class="bi bi-facebook text-2xl"></i>
+          </div>
+          <h4 class="text-xl font-bold text-gray-900 mb-2">Facebook</h4>
+          <p class="text-sm text-gray-500 break-all">Direct Message</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-200 bg-white py-10 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+      <div class="flex items-center gap-2">
+        <span class="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center font-extrabold text-sm">A</span>
+        <span class="font-bold text-gray-800">Md. Mirajur Rahman</span>
+        <span>— Computer Fixture Bangladesh (COMFIXBD)</span>
+      </div>
+      <div>© <span id="year"></span> All rights reserved.</div>
+    </div>
+  </footer>
+
+  <button id="topBtn" class="fixed bottom-8 right-8 z-50 w-12 h-12 rounded-full bg-white neu text-blue-600 items-center justify-center hover:bg-blue-600 hover:text-white transition hidden" aria-label="Back to top">
+    <i class="bi bi-arrow-up text-lg"></i>
+  </button>
+
+  <script>
+    const WA = "https://wa.me/8801932786233";
+    const waLink = (s) => `${WA}?text=${encodeURIComponent(`Hi, I visited your portfolio and liked your work. I want to discuss the ${s} service.`)}`;
+
+    const SERVICES = [
+      { title:"Graphic Design", tagline:'"Design is the silent ambassador of your brand."', price:"$5 – $10,000", features:["Brand Identity & Logos","Social Media Assets","Print & Digital Layouts"], tools:["Photoshop","Illustrator"], cta:"Order Now" },
+      { title:"Video Editing", tagline:'"Cinematic stories that captivate and convert."', price:"$10 – $10,000", features:["High-End Post Production","Professional Color Grading","Dynamic Motion Graphics"], tools:["Premiere Pro","After Effects"], cta:"Get a Quote", featured:true },
+      { title:"Web Development", tagline:'"Turning complex logic into seamless experiences."', price:"$20 – $50,000", features:["SaaS & Dashboard Design","Responsive UI Components","Full-Stack Solutions"], tools:["React","Tailwind"], cta:"Start Project" },
+    ];
+
+    const FILTERS = [
+      { id:"all", label:"All Videos" },
+      { id:"documentary", label:"Documentary" },
+      { id:"cartoon-video", label:"Cartoon Video" },
+      { id:"normal-video", label:"Normal Video" },
+      { id:"ai-video", label:"AI Video" },
+      { id:"motion", label:"Motion" },
+      { id:"colour-grading", label:"Colour Grading" },
+    ];
+
+    const VIDEOS = [
+      { id:"d1", cat:"documentary", thumb:"https://zwklibzupwruzotsevkv.supabase.co/storage/v1/object/public/uploads/works/1779161787237-tnq5hg.webp", views:"44.9K views" },
+      { id:"d2", cat:"documentary", thumb:"https://zwklibzupwruzotsevkv.supabase.co/storage/v1/object/public/uploads/works/1779161980716-d4utzt.webp", views:"28.6K views" },
+      { id:"d3", cat:"documentary", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780709983434-h1nttjn.webp", views:"17.3K views" },
+      { id:"c1", cat:"cartoon-video", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780710540895-yfvvf.webp", views:"22.1K views" },
+      { id:"c2", cat:"cartoon-video", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780712914387-kcubd.webp", views:"19.4K views" },
+      { id:"n1", cat:"normal-video", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780714092747-9mpx7h.webp", views:"12.8K views" },
+      { id:"n2", cat:"normal-video", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780714406464-pe2tt8.webp", views:"9.7K views" },
+      { id:"a1", cat:"ai-video", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780713508455-x7j3r.webp", views:"48.3K views" },
+      { id:"a2", cat:"ai-video", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780714049742-kkbch9.webp", views:"24.7K views" },
+      { id:"a3", cat:"ai-video", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780714706724-7guqca.webp", views:"41K views" },
+      { id:"m1", cat:"motion", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780710540895-yfvvf.webp", views:"30.4K views" },
+      { id:"m2", cat:"motion", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780712914387-kcubd.webp", views:"18K views" },
+      { id:"g1", cat:"colour-grading", thumb:"https://qzpvqycykdqxlwfcawli.supabase.co/storage/v1/object/public/uploads/images/1780714092747-9mpx7h.webp", views:"17.5K views" },
+    ];
+
+    // Year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Mobile menu
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const menuIcon = document.getElementById("menuIcon");
+    menuBtn.addEventListener("click", () => {
+      const isHidden = mobileMenu.classList.contains("hidden");
+      mobileMenu.classList.toggle("hidden", !isHidden);
+      mobileMenu.classList.toggle("flex", isHidden);
+      menuIcon.className = isHidden ? "bi bi-x-lg text-xl" : "bi bi-list text-xl";
+    });
+    mobileMenu.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
+      mobileMenu.classList.add("hidden"); mobileMenu.classList.remove("flex");
+      menuIcon.className = "bi bi-list text-xl";
+    }));
+
+    // Services
+    const servicesGrid = document.getElementById("servicesGrid");
+    servicesGrid.innerHTML = SERVICES.map(s => `
+      <div class="relative rounded-3xl p-8 border transition hover:-translate-y-1 ${s.featured ? 'bg-gray-900 text-white border-gray-900 shadow-2xl' : 'bg-white border-slate-200 shadow-sm hover:shadow-xl'}">
+        ${s.featured ? `<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Most Popular</div>` : ''}
+        <h3 class="text-2xl font-bold">${s.title}</h3>
+        <p class="text-sm mt-2 italic ${s.featured ? 'text-slate-300' : 'text-gray-500'}">${s.tagline}</p>
+        <div class="mt-6">
+          <span class="text-xs uppercase font-bold tracking-wider ${s.featured ? 'text-slate-400' : 'text-gray-400'}">Starting from</span>
+          <div class="text-2xl font-extrabold mt-1">${s.price} <span class="text-sm font-bold ${s.featured ? 'text-slate-400' : 'text-gray-400'}">/project</span></div>
+        </div>
+        <ul class="mt-6 space-y-3 text-sm ${s.featured ? 'text-slate-200' : 'text-gray-700'}">
+          ${s.features.map(f => `<li class="flex items-center gap-2"><i class="bi bi-check2-circle ${s.featured ? 'text-blue-400' : 'text-blue-600'}"></i>${f}</li>`).join('')}
+        </ul>
+        <div class="text-[10px] uppercase font-bold tracking-widest mt-6 ${s.featured ? 'text-slate-400' : 'text-gray-400'}">Core Tools</div>
+        <div class="flex flex-wrap gap-2 mt-2">
+          ${s.tools.map(t => `<span class="text-xs font-semibold px-3 py-1 rounded-full ${s.featured ? 'bg-white/10 text-white' : 'bg-slate-100 text-gray-700'}">${t}</span>`).join('')}
+        </div>
+        <a href="${waLink(s.title)}" target="_blank" rel="noopener" class="mt-8 w-full inline-flex items-center justify-center gap-2 py-3 rounded-xl font-bold transition ${s.featured ? 'bg-blue-600 text-white hover:bg-blue-500' : 'bg-gray-900 text-white hover:bg-blue-600'}">
+          ${s.cta} <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    `).join('');
+
+    // Filters & Videos
+    const filtersEl = document.getElementById("filters");
+    const videosWrap = document.getElementById("videosWrap");
+    let currentFilter = "all";
+
+    function renderFilters(){
+      filtersEl.innerHTML = FILTERS.map(f => `
+        <button data-id="${f.id}" class="filter-btn px-4 py-2 rounded-full text-sm font-semibold transition ${currentFilter===f.id?'bg-blue-600 text-white shadow-md':'bg-white text-gray-600 border border-slate-200 hover:border-blue-300'}">${f.label}</button>
+      `).join('');
+      filtersEl.querySelectorAll(".filter-btn").forEach(b => b.addEventListener("click", () => {
+        currentFilter = b.dataset.id; renderFilters(); renderVideos();
+      }));
+    }
+
+    function renderVideos(){
+      const list = currentFilter === "all" ? VIDEOS : VIDEOS.filter(v => v.cat === currentFilter);
+      if(!list.length){ videosWrap.innerHTML = `<div class="text-center py-16 text-gray-500">Coming soon.</div>`; return; }
+      const groups = {};
+      list.forEach(v => {
+        const label = FILTERS.find(f => f.id === v.cat)?.label || v.cat;
+        (groups[label] ||= []).push(v);
+      });
+      videosWrap.innerHTML = Object.entries(groups).map(([group, vids]) => `
+        <div>
+          <div class="flex items-center gap-3 mb-5">
+            <span class="text-sm font-bold uppercase tracking-widest text-gray-700">${group}</span>
+            <span class="flex-1 h-px bg-slate-200"></span>
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            ${vids.map(v => `
+              <article class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition group">
+                <div class="relative aspect-video overflow-hidden bg-slate-100">
+                  <img src="${v.thumb}" alt="" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                  <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition flex items-center justify-center">
+                    <div class="w-14 h-14 rounded-full bg-white/95 text-blue-600 flex items-center justify-center opacity-0 group-hover:opacity-100 transition scale-90 group-hover:scale-100">
+                      <i class="bi bi-play-fill text-2xl ml-1"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between px-4 py-3 text-sm">
+                  <button class="flex items-center gap-1.5 text-gray-700 font-semibold hover:text-blue-600"><i class="bi bi-play-fill"></i> Play</button>
+                  <span class="flex items-center gap-1.5 text-gray-500"><i class="bi bi-eye-fill"></i> ${v.views}</span>
+                  <button class="flex items-center gap-1.5 text-gray-700 font-semibold hover:text-blue-600"><i class="bi bi-share-fill"></i> Share</button>
+                </div>
+              </article>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    renderFilters(); renderVideos();
+
+    // Back to top
+    const topBtn = document.getElementById("topBtn");
+    window.addEventListener("scroll", () => {
+      if(window.scrollY > 400){ topBtn.classList.remove("hidden"); topBtn.classList.add("flex"); }
+      else { topBtn.classList.add("hidden"); topBtn.classList.remove("flex"); }
+    });
+    topBtn.addEventListener("click", () => window.scrollTo({ top:0, behavior:"smooth" }));
+  </script>
+</body>
+</html>
